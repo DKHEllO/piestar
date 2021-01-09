@@ -5,7 +5,7 @@ import socket
 import threading
 import configparser
 
-from lib.logger import BaseLogger
+from chat.lib.logger import BaseLogger
 
 log = BaseLogger().get_logger(__name__)
 
